@@ -34,7 +34,3 @@ jobs:
           tags: ${{ env.IMAGE }}:latest
           build-args: |
             VITE_BASE_URL=${{ secrets.VITE_BASE_URL }}
-
-      - name: Trigger Portainer webhook
-        run: |
-          curl -s -X POST "${{ secrets.PORTAINER_WEBHOOK_URL }}"
