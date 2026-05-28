@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+/* Police Rotis Sans Serif W1G */
+@font-face {
+  font-family: 'Rotis Sans Serif';
+  src: url('/fonts/Rotis Sans Serif W1G Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rotis Sans Serif';
+  src: url('/fonts/Rotis Sans Serif W1G Light Italic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rotis Sans Serif';
+  src: url('/fonts/Rotis Sans Serif W1G.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rotis Sans Serif';
+  src: url('/fonts/Rotis Sans Serif W1G Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rotis Sans Serif';
+  src: url('/fonts/Rotis Sans Serif W1G Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rotis Sans Serif';
+  src: url('/fonts/Rotis Sans Serif W1G XBold.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
