@@ -1,11 +1,7 @@
 version: '3.8'
 services:
   delaguia-cards:
-    image: delaguia-cards:latest
-    build:
-      context: .
-      args:
-        VITE_BASE_URL: https://cards.delaguialuzon.es
+    image: ghcr.io/delaguialuzon01/cards:latest
     restart: unless-stopped
     ports:
       - "3080:80"
