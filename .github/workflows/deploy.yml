@@ -5,15 +5,14 @@ on:
     branches: [main]
 
 env:
-  REGISTRY: ghcr.io
-  IMAGE:    ghcr.io/delaguialuzon01/cards
+  IMAGE: ghcr.io/delaguialuzon01/cards
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write        # nécessaire pour push sur ghcr.io
+      packages: write
 
     steps:
       - name: Checkout
@@ -24,7 +23,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}  # token auto, rien à créer
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build & Push
         uses: docker/build-push-action@v5

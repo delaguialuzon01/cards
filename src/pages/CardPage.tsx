@@ -86,7 +86,6 @@ export default function CardPage() {
               fgColor="#2c2416"
               bgColor="#ffffff"
               level="M"
-              imageSettings={{ src: COMPANY.logo, height: 26, width: 26, excavate: true }}
             />
           </div>
           <p className="text-xs text-brand-muted mt-3">
