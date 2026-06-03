@@ -35,7 +35,7 @@ export const employees: Employee[] = [
     phone:    '+34 664 725 402',
     email:    'sonia.gomezluzon@delaguialuzon.com',
     website:  'https://delaguialuzon.com',
-    photo:    '/photos/sonia.jpg',
+    photo:    '/photos/sonia.png',
     initials: 'SG',
   },
    {
