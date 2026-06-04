@@ -15,7 +15,7 @@ export default function Avatar({ photo, initials, className = '' }: Props) {
         src={photo}
         alt={initials}
         onError={() => setError(true)}
-        className={`object-cover ${className}`}
+        className={` ${className}`}
       />
     )
   }

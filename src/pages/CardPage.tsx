@@ -32,14 +32,14 @@ export default function CardPage() {
           <div className="bg-brand-dark px-6 pt-8 pb-6 flex flex-col items-center text-center">
             <img
               src={COMPANY.logo} alt={COMPANY.name}
-              className="h-7 mb-7 opacity-90" style={{ filter: 'invert(1)' }}
+              className="h-16 mx-auto mb-7 object-cover object-center 7 opacity-90" style={{ filter: 'invert(1)' }}
             />
             <Avatar
               photo={emp.photo}
               initials={emp.initials}
-              className="w-24 h-24 rounded-full border-2 border-white/20 text-3xl mb-4"
+              className="w-36 h-36 rounded-full border-2 border-white/20 text-3xl mb-4 object-cover object-center"
             />
-            <h1 className="font-serif text-2xl font-semibold text-white leading-tight mb-1.5">
+            <h1 className="font-serif text-xl font-semibold text-white leading-tight mb-1.5">
               {emp.name}
             </h1>
             <p className="text-[11px] text-brand-accent font-medium tracking-[0.1em] uppercase">
