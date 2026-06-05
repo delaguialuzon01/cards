@@ -12,7 +12,7 @@ export const employees: Employee[] = [
     slug:     'felix-delaguia-munoz',
     name:     'Félix de la Guía Muñoz',
     title:    'Abogado - Tax attorney',
-    phone:    '+34 96 352 32 91',
+    phone:    '+34 620 99 41 24',
     email:    'felix.delaguiamunoz@delaguialuzon.com',
     website:  'https://delaguialuzon.com',
     photo:    '/photos/felix.jpg',
@@ -55,7 +55,7 @@ export const employees: Employee[] = [
     phone:    '+34 96 352 32 91  ',
     email:    'contabilidad02@delaguialuzon.com',
     website:  'https://delaguialuzon.com',
-    photo:    '/photos/santiago.jpg',
+    photo:    '/photos/santi.jpg',
     initials: 'SV',
   },
   {
@@ -131,5 +131,15 @@ export const employees: Employee[] = [
     website:  'https://delaguialuzon.com',
     photo:    '/photos/alejandro.jpg',
     initials: 'AL',
+  },
+  {
+    slug:     'paula-recuero-gonzalez',
+    name:     'Paula Recuero González',
+    title:    'Responsable Compraventa',
+    phone:    '+34 651 588 935',
+    email:    'compraventa01@delaguialuzon.com',
+    website:  'https://delaguialuzon.com',
+    photo:    '/photos/paula.jpg',
+    initials: 'PR',
   },
 ]
