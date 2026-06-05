@@ -38,6 +38,16 @@ export const employees: Employee[] = [
     photo:    '/photos/sonia.png',
     initials: 'SG',
   },
+  {
+    slug:     'paul-leclercq',
+    name:     'Paul Leclercq',
+    title:    'CTO',
+    phone:    '+34 610 88 13 82',
+    email:    'sistemas01@delaguialuzon.com',
+    website:  'https://delaguialuzon.com',
+    photo:    '/photos/paul.jpg',
+    initials: 'PL',
+  },
    {
     slug:     'cristina-garcia-zapater',
     name:     'Cristina Garcia Zapater',
