@@ -125,9 +125,9 @@ export const employees: Employee[] = [
    {
     slug:     'bea-pena-tabernero',
     name:     'Bea Peña Tabernero',
-    title:    'Departamento Laboral',
+    title:    'Graduada Social - Asesora Laboral',
     phone:    '+34 96 374 16 57',
-    email:    'laboral03@delaguialuzon.com',
+    email:    'bea.penya@delaguialuzon.com',
     website:  'https://delaguialuzon.com',
     photo:    '/photos/bea.jpg',
     initials: 'BP',
@@ -135,7 +135,7 @@ export const employees: Employee[] = [
    {
     slug:     'alejandro-lopez-martinez',
     name:     'Alejandro Lopez Martinez',
-    title:    'Departamento Laboral',
+    title:    'Asesora Laboral',
     phone:    '+34 96 352 32 91',
     email:    'laboral01@delaguialuzon.com',
     website:  'https://delaguialuzon.com',
